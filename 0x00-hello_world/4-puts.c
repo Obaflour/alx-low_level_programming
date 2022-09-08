@@ -1,13 +1,17 @@
 #include <stdio.h>
-/*
- * main - This user program prints exactly the string.
- * main - Entry point
- * "Programming is like building a multilingual puzzle"
- * followed by a new line
- * return: always (0) sucess.
+
+/**
+ * Description: main - Prints out a string to stdout.
+ *
+ * Return: 0 if success.
+ *
  */
+
 int main(void)
+
 {
 	puts("\"Programming is like building a multilingual puzzle");
-		return (0);
+
+	return (0);
+
 }
