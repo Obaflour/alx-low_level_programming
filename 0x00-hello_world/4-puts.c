@@ -1,4 +1,4 @@
-#!/bin/bash
+
 #include <studio.h>
 /* 
  * This user program prints exactly the string
