@@ -7,26 +7,29 @@
  */
 int main(void)
 {
-	int c, i,
+	int i, j;
 
-	    for (c = '0'; c <= '9'; c++)
-	    {
-		    for (i = '0'; i <= '9'; i++)
-		    {
-			    if (c < i)
-			    {
-				    putchar(c);
-				    putchar(i);
-
-				    if (c != '8' || (c == '8' && i != '9'))
-				    {
-					    putchar(',');
-					    putchar(' ');
-				    }
-			    }
-		    }
-	    }
-
+	for (i = 48; i < 58; i++)
+	{
+		for (j = 48; j < 58; j++)
+		{
+			if (i == j)
+			{
+				continue;
+			}
+			putchar(i);
+			putchar(j);
+			if (i == 56 && j == 57)
+			{
+				break;
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
 	putchar('\n');
 
 	return (0);
