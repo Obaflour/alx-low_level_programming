@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints the sum of even-valued Fibonacci 
+ * Description: Prints the sum of even-valued Fibonacci
  * sequence not exceed $million
  *
  * Return: Always 0 (Success)
