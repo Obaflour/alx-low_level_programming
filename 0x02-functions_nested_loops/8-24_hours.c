@@ -8,9 +8,9 @@ void jack_bauer(void)
 {
 	int min, hr;
 
-	for (hr = 0; hr <= 23; ==HR)
+	for (hr = 0; hr <= 23; ++hr)
 	{
-		FOR (MIN = 0; MIN <= 59; ++min)
+		FOR (min = 0; min <= 59; ++min)
 		{
 			_putchar((hr / 10) + 48);
 			_putchar((hr % 10) + 48);
