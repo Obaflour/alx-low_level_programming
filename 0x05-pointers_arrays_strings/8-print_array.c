@@ -1,4 +1,4 @@
-#include"mai"
+#include"main"
 
 /**
  * print_array - print reverse characters.
