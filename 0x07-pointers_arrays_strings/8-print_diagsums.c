@@ -5,11 +5,11 @@
  * @a: pointer to array.
  * @size: size of array.
  *
- * Return: void
+ * Return: Always 0.
  */
-void print_diagsums(int *a, int size);
+void print_diagsums(int *a, int size)
 {
-	int i, size1;
+	int i, size1i;
 	unsigned int sumDiag1, sumDiag2;
 
 	size1 = 0;
@@ -26,5 +26,5 @@ void print_diagsums(int *a, int size);
 	{
 		sumDiag2 = sumDiag2 + a[i];
 	}
-	prinf("%d, %d\n", sumDiag1, sumDiag2);
+	printf("%d, %d\n", sumDiag1, sumDiag2);
 }
