@@ -2,10 +2,13 @@
 #include <stdio.h>
 /**
  * print_diagsums - prints sum of two diagonals of a square.
- * @a: pointer to array.
- * @size: size of array.
+ * @a: input string
+ * @size: input character
  *
- * Return: void
+ * Description: prints the sum of the two diagonals of a
+ * squarematrix of integers
+ *
+ * Return: Always return 0
  */
 
 void print_diagsums(int *a, int size)
