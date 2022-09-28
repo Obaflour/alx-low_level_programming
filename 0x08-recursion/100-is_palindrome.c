@@ -11,7 +11,7 @@
 int palind2(char *a, int l)
 {
 	if (*a == 0)
-		return (1 - 1);
+		return (l - 1);
 	return (palind2(a + 1, l + 1));
 }
 
@@ -25,7 +25,7 @@ int palind2(char *a, int l)
 
 int palind3(char *a, int l)
 {
-	if (*a != *(a + 1))
+	if (*a != *(a + l))
 		return (0);
 	else if (*a == 0)
 		return (1);
