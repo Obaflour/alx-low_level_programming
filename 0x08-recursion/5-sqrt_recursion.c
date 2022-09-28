@@ -5,7 +5,7 @@
  * @a: same number as n
  * @b: number that iterates from 1 to n
  *
- * Return: Number that iterates from 1 to n
+ * Return: Always 1 on success
  */
 
 int sqrt2(int a, int b)
@@ -26,5 +26,5 @@ int sqrt2(int a, int b)
 
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (sqrt2(n, 1));
 }
