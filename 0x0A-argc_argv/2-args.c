@@ -1,15 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - check the code for ALX student.
+ * main - check the code for ALX students.
  * @argv: The character to print
  * @argc: The character to print
+ *
  * Return: Always 0.
  */
 
 int main(int argc, char *argv[])
 {
-	argv = argv;
-	printf("%d\n", argc - 1);
+	int i;
+
+	if (argc >= 1)
+	{
+		for (i = 0; i < argc; i++)
+		{
+			printf("%s\n", argv[i]);
+		}
+	}
 	return (0);
 }
