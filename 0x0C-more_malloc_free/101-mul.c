@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
 /**
  * _isdigit - tells if the string consists of digits
@@ -56,6 +55,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 
+	malloc();
 	if (argc != 3)
 	{
 		printf("Error\n");
