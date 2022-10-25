@@ -11,14 +11,15 @@
 
 listint_t *add_nodient(listint_t **head, const int n)
 {
-	listint_t *tp;
+	listint_t *node;
 
-	tp = malloc(sizeof(listint_t));
-	if (tp == NULL)
-		return (NULL);
-
-	tp->n = n;
-	tp->next = *head;
-	*head = tp;
-	return (*head);
+	if (!head)
+		return (0);
+	node = malloc(sizeof(listint_t));
+	if (!node)
+		return (0);
+	node->n = n;
+	node->next = *head;
+	*head = node;
+	return (node);
 }
